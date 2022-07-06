@@ -9,4 +9,10 @@ public class HelloWorldController {
     public String helloWorld(){
         return "Hello World works perfectly";
     }
+
+    @RequestMapping("/goodbye")
+        public String goodbye(){
+            return "See you later";
+        }
+
 }
